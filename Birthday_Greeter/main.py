@@ -40,17 +40,3 @@ def AutoBirthdayMessage():
 
 
 AutoBirthdayMessage()
-
-
-####################################
-#bonus function for sending message to followers
-#send message to followers
-def sendMessageAll(message):
-    for follower in API.followers_ids():
-        API.send_direct_message(follower,message)
-
-
-
-
-
-#author 20prince12
